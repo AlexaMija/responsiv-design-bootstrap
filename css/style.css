@@ -1,0 +1,92 @@
+body {
+    font-family: 'Anybody', cursive;
+}
+
+
+/***********HEADER********/
+header h1 {
+    color: gray;
+}
+header a {
+    color: gray;
+    margin-left: 24px;
+}
+header a:hover {
+    color: gray;
+}
+header a:visited {
+    color: gray;
+}
+
+#first-a {
+    color: black;
+}
+@media (max-width: 768px) {
+header {
+    text-align: center;
+}
+}
+/******** HERO  *******/
+
+#just-for-picture {
+background-image: url(../img/hero.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 640px;
+}
+
+@media (max-width: 768px) {
+    #just-for-picture {
+        background-image: url(../img/hero.jpg);
+        background-repeat: no-repeat;
+        height: 180px;
+    } 
+    }
+
+
+
+  .lead {
+background-color: rgb(65, 142, 65);
+margin-top: 120px;
+padding-top: 15px;
+height: 65px;
+}
+@media (max-width: 768px) {
+    .lead {
+ background-color: rgb(65, 142, 65);
+margin-top: 120px;
+height: 65px;
+    }
+}
+
+/***********INTRO********/
+#intro-section {
+    padding: 50px;
+    background-color: rgb(237, 231, 231);
+}
+
+
+/**************ABOUT************/
+
+#about-section {
+    padding: 50px;
+    background-color: rgb(237, 231, 231);
+}
+/**************ABOUT-section-2************/
+#about-section-2 {
+    padding: 50px;
+    background-color: rgb(237, 231, 231);
+}
+/*
+#about-section-2-img {
+   
+}*/
+
+/**************LAST************/
+#last-section {
+    background-color: rgb(33, 31, 31);
+}
+/***********FOOTER**************/
+#footer-section {
+    background-color: black;
+}
